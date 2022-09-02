@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Writing assertions for rectangle" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-02T13:40:03" hostname="gurushifu-gurushifugitp-f6opytkilnj" time="0.027">
+  <properties/>
+  <testcase name="When lenght is zero" classname="com.thoughtworks.rectangle.RectangleTest" time="0.02"/>
+  <testcase name="When lenght and breadth is integer" classname="com.thoughtworks.rectangle.RectangleTest" time="0.002"/>
+  <testcase name="When breadth is zero" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
