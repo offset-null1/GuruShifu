@@ -2,15 +2,15 @@ package com.thoughtworks.rectangle;
 
 public class Rectangle {
     
-    private final int length;
-    private final int breadth;
+    private final double length;
+    private final double breadth;
     
-    Rectangle(int length, int breadth){
+    Rectangle(double length, double breadth){
         this.length = length;
         this.breadth = breadth;
     }
 
-    public int area(){
+    public double area(){
         return this.length * this.breadth;
     }
 }

@@ -1,2 +1,0 @@
-com/thoughtworks/rectangle/RectangleTest.java
- com.thoughtworks.rectangle.RectangleTest
