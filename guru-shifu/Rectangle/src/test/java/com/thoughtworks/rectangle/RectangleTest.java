@@ -11,6 +11,14 @@ import org.junit.jupiter.api.DisplayName;
 @DisplayName("Writing assertions for calculating area and perimeter of rectangle")
 public class RectangleTest {
 
+    @DisplayName("Area when unit length and breadth are given")
+    @Test
+    void shouldReturnAreaWhenLengthAndBreadthIsOne(){
+        Rectangle rect = new Rectangle(1.0, 1.0);
+        double res = rect.area();
+        assertThat(res, is(closeTo(1.0, 0.001)));
+    }
+
     @DisplayName("Area when length is zero")
     @Test
     void shouldReturnAreaWhenLengthIsZero() {
