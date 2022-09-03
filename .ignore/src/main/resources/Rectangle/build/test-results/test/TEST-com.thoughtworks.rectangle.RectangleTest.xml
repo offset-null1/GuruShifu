@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Writing assertions for rectangle" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-09-02T13:40:03" hostname="gurushifu-gurushifugitp-f6opytkilnj" time="0.027">
+<testsuite name="Writing assertions for calculating area and perimeter of rectangle" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-09-03T04:11:25" hostname="gurushifu-gurushifugitp-f6opytkilnj" time="0.022">
   <properties/>
-  <testcase name="When lenght is zero" classname="com.thoughtworks.rectangle.RectangleTest" time="0.02"/>
-  <testcase name="When lenght and breadth is integer" classname="com.thoughtworks.rectangle.RectangleTest" time="0.002"/>
-  <testcase name="When breadth is zero" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
+  <testcase name="Perimeter when length is zero" classname="com.thoughtworks.rectangle.RectangleTest" time="0.014"/>
+  <testcase name="Area when length is zero" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
+  <testcase name="Perimeter when breadth is zero" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
+  <testcase name="Perimeter when length and breath are given" classname="com.thoughtworks.rectangle.RectangleTest" time="0.0"/>
+  <testcase name="Area when length and breadth are integer" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
+  <testcase name="Area when breadth is zero" classname="com.thoughtworks.rectangle.RectangleTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
